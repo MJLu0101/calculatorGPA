@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    background-color:#f0f2f5;
+    min-height: 100vh;
+}
+.container{
+    width: 90%;
+    max-width: 600px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+.title h1{
+    align-items: center;
+    color:blue;
+}
+.row{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+input[type="text"],input[type="number"],select{
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #010101;
+    font-size:15px;
+    border-radius: 12px;
+}
+button{
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    border: none;
+
+}
+.delete-row{
+    font-size: 12px;
+    background-color: rgb(231, 79, 79);
+    border-radius: 12px;
+    color:white;
+}
+
+.result,.reset,.add-row{
+    background-color: blue;
+    color: white;
+}
+button:hover{
+    opacity: 0.8;
+}
+.button-row{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+}
+#gpa-result{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color:#25ed2c;
+}
